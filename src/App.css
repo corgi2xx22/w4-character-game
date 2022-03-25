@@ -4,7 +4,10 @@
 
 body {
 	/* background-color: rgb(105, 19, 91); */
-	background-image: url(/public/patterns/hip-square.png);
+background: #C6FFDD;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .App {
@@ -18,41 +21,41 @@ body {
 	text-align: center;
 	font-size: 50px;
 	font-weight: 700;
-	color: rgb(11, 175, 148);
-	text-shadow: 3px 3px rgb(255, 153, 0);
+	color: rgb(0, 253, 253);
+	text-shadow: 3px 3px rgb(255, 0, 170);
 }
 
 .subtitle {
 	text-align: center;
 	font-size: 30px;
 	font-weight: 900;
-	text-shadow: 3px 3px rgb(11, 175, 148);
-	color: rgb(255, 153, 0);
+	text-shadow: 3px 3px rgb(147, 0, 192);
+	color: rgba(202, 255, 133, 0.986);
 }
 
 h2 {
-	color: rgb(165, 81, 13);
+	color: white;
 }
 
 .divider {
 	width: 50%;
 	height: 1px;
-	border-bottom: 4px solid rgba(255, 41, 41, 0.555);
+	border-bottom: 4px solid white;
 	margin: 20px auto;
 }
 .list {
-	background-color: rgba(255, 166, 0, 0.4);
+	background-color: rgba(234, 255, 247, 0.212);
 	display: flex;
 	flex-wrap: wrap;
 	margin: 10px 0;
 	gap: 1rem;
-	border: 5px solid orange;
+	border: 5px solid rgb(98, 0, 255);
 	border-radius: 15px;
 	padding: 20px;
 }
 
 .selected {
-	background-color: rgba(116, 116, 255, 0.315);
+	background-color: rgba(255, 255, 255, 0.315);
 }
 
 .avatar {
@@ -64,7 +67,7 @@ h2 {
 .avatar-wrapper {
 	border-radius: 40px;
 	display: inline-block;
-	border: 15px solid rgb(11, 175, 148);
+	border: 15px solid rgb(85, 40, 168);
 	padding: 50px;
 	position: sticky;
 	background-color: #fff;
@@ -81,13 +84,13 @@ h2 {
 	width: 50px;
 	height: 50px;
 	position: relative;
-	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.151);
+	box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.151);
 	transition-duration: 0.2s;
 }
 
 .square:hover {
-	background-color: rgba(255, 137, 116, 0.315);
-	transition-duration: 0.2s;
+	background-color: rgba(253, 251, 255, 0.637);
+	transition-duration: 0.1s;
 }
 
 .img-center {
@@ -129,7 +132,7 @@ h2 {
 }
 
 .button {
-	background-color: rgb(202, 81, 25);
+	background-color: rgb(253, 0, 177);
 	border: none;
 	border-radius: 15px;
 	padding: 10px;
@@ -143,7 +146,7 @@ h2 {
 
 .button:hover {
 	transition-duration: 0.2s;
-	background-color: rgb(139, 55, 16);
+	background-color: rgb(200, 1, 240);
 }
 
 .button-green {
