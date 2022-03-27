@@ -48,17 +48,8 @@ function App() {
 			<div className="divider"></div>
 			<div className="avatar-group gap-30">
 				<div>
-					<div className="avatar-wrapper">
-						<Character 
-						body={body} 
-						eyes={eyes} 
-						hair={hair} 
-						clothing1={clothing1}
-						clothing2={clothing2} 
-						clothing3={clothing3} 
-						mouth={mouth} 
-						eyebrow={eyebrows} 
-						glasses={glasses} />
+				<div className="avatar-wrapper">
+						<Character body={body} eyes={eyes} hair={hair} clothing1={clothing1} clothing2={clothing2} clothing3={clothing3} mouth={mouth} eyebrow={eyebrows} glasses={glasses} />
 						<div className="text-center">
 							<button className="button" onClick={() => randomize()}>
 								Randomize!
